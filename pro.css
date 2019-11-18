@@ -1,0 +1,221 @@
+.c1{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #0066ff;
+  border-radius: 10px;
+
+}
+table a
+{
+	color:red;
+	border:2px solid red;
+	text-decoration: none;
+	
+}
+.c2{
+  float:left;
+}
+.c4
+{
+	float: right;
+}
+
+.c5 {
+  display: block;
+  color: white;
+  background-color: red; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:Comic Sans MS;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.c3 {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:Comic Sans MS;
+  font-weight: bold
+}
+.active {
+  background-color:  #111;
+  color: white;
+  border-radius: 10px;
+}
+ul li a:hover {
+  background-color: #111;
+  color:white;
+  border-radius: 10px;
+}
+
+.sem {
+
+
+  margin-right: 25%;
+  margin-left: 27%;
+  height: 170px;
+  background-color:#491217;
+  padding-left: 15%;
+  
+  font-family:Comic Sans MS;
+  font-size: 22px;
+  list-style-image:url(unchecked.png);
+  line-height: 1.8;
+  color: white;
+  list-style-position: inside;
+
+}
+ol li
+{
+	transition:0.7s;
+}
+ol a 
+{
+  text-decoration: none;
+    color: white;
+
+}
+ol li:hover
+{
+  list-style-image:url(checked.png);
+  font-size: 24px;
+  transition:0.7s;
+  list-style-position: inside;
+}
+.nav
+{
+	position: sticky;
+ 	 top: 2px;
+}
+.head
+{
+	padding-top: 15px;
+	font-family: "lucida sans unicode";
+	color: black;
+	letter-spacing:10px;
+	z-index: -1;
+	font-size: 80px;
+	margin-bottom: 10px;
+	
+}
+.border {
+    display: block;
+    margin:auto;
+    width: 300px;
+    height: 5px;
+	border-radius: 80px;
+    background: #3498db;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.sub
+{
+	 font-family:Comic Sans MS;
+	margin-top: -60px;
+	font-size:50px;
+	color: #491217;
+
+}
+.bgpic
+{
+	z-index: -1;
+	position: absolute;
+}
+.page
+{
+	margin-top:-11%;
+	margin-left: 38%;
+	color:white;
+	font-size: 60px;
+	font-weight: 900;
+}
+.path
+{
+	margin-left: 44%;
+	color:white;
+	font-size: 20px;
+	font-weight: 900;
+}
+.conin
+{
+	margin-top:580px;
+	width: 550px;
+	margin-left: 40px;
+}
+.conin p
+{
+	font-size: 30px;
+}
+.condesc
+{
+	color:#FFA107;
+}
+div.Contact
+{
+
+	height: 750px;
+	text-align:center;
+}
+.Message
+{
+	margin-top:30px; 
+	font-size:25px;
+}
+.bn
+{
+	border: 2px solid #E5E5E5;
+	border-radius: 2px;
+	font-size:20px;
+	height: 40px;
+	text-align: center;
+	width:500px;
+}
+.condata
+{
+	margin-top: 30px;
+}
+.conmsg
+{
+	margin-top: 30px;
+	height: 200px;
+	
+}
+.bmsg
+{
+	border: 2px solid #E5E5E5;
+	border-radius: 2px;
+	font-size:20px;
+	text-align: left;
+	width:500px;
+	max-width: 500px;
+	max-height: 200px;
+	min-height: 200px;
+	min-width: 500px;
+}
+.submit
+{
+	margin-top: 50px;
+	color:white;
+	font-size:20px;
+	width: 300px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: black;
+	font-family: "Comic Sans MS";
+}
+@media only screen and(max-width:367px; max-height:200px;)
+{
+	
+	body
+	{
+			height:100%;
+		width:100%;
+		font-size: 11px;
+	}
+}

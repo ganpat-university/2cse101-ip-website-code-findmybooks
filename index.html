@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>Login to FMB</title>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form { padding-top:30;margin:0px 350px; height:450px; opacity:1;}
+
+input[type=text], input[type=password] {
+  align-content: center;
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.imgcontainer
+{
+
+	}
+button {
+  background-color: #0066ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius:10px;
+  
+}
+
+button:hover {
+  opacity: 0.6;
+}
+.container {
+	padding-top:40px;
+}
+
+
+span.psw {
+  float: right;
+
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+
+}
+.container {
+}
+</style>
+</head>
+<body>
+<div  style="background-image:url(i8.jpg);height:100%; width:96%; margin-left:30px; border-radius:10px;">
+<center><h1>Login Form</h1></center>
+
+<form action="home.html" method="post" onsubmit="return ha()">
+ <center><div class="imgcontainer">
+    <img src="i3.png">
+  </div></center>
+<center>
+  <div class="container">
+	<script type="text/javascript" >
+		function ha()
+			{
+				var x=document.getElementById('a1').value;
+				var y=document.getElementById('a2').value;
+				if (x!='123'||y!='123')
+					{
+						alert("Incorrect Password or Username");
+						return false;
+						}						
+			}
+	</script>
+    <label for="uname"><b>Username: </b></label>
+    <input type="text" id="a1" placeholder="Enter Username" name="uname" required >
+<br>
+    <label for="psw"><b>Password: </b></label>
+    <input type="password" id="a2" placeholder="Enter Password" name="psw" required>
+        <br>
+        <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-left:-100px;"><strong>Remember me</strong></label><br><br>
+    <button type="submit" style="width:25%; margin-left:5%;" onclick="ha()">Login</button>
+    <br>
+ 
+  </div>
+</center>
+</form>
+</div>
+</body>
+</html>

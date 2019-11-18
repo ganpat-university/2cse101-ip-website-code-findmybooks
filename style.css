@@ -1,0 +1,111 @@
+*{
+
+font-family: lucida sans unicode;
+}
+.about-section{
+overflow: hidden;
+text-align: center;
+background: #a0a0a0;
+padding: 60px;
+}
+.about-section h1{
+margin-bottom: 60px;
+color:black;
+font-size: 60px;
+}
+.border{
+display: block;
+margin: auto;
+width: 160px;
+height: 3px;
+background: #3498db;
+margin-bottom: 40px;
+text-align: center;
+}
+.ps{
+margin-bottom: 40px;
+}
+.nav
+{
+  position: sticky;
+  top: 2px;
+}
+.ps a img {
+padding: 30px;
+width: 190px;
+height: 190px;
+border-radius: 90%;
+transition: .5s;
+}
+
+.ps a img:hover {
+border-radius: 0%;
+transition: .5s;
+opacity: .75;
+}
+.section{
+width: 600px;
+font-size: 20px;
+color:black;
+text-align: center;
+height: 10px;
+overflow: hidden;
+
+}
+.section:target{
+height: auto;
+}
+.name{
+display: block;
+margin-bottom: 30px;
+text-align:center;
+font-size: 32px;
+}
+.c1{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #0066ff;
+  border-radius: 10px;
+
+}
+
+.c2{
+  float:left;
+}
+.c4
+{
+	float: right;
+}
+
+.c5 {
+  display: block;
+  color: white;
+  background-color: red; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:Comic Sans MS;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.c3 {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:Comic Sans MS;
+  font-weight: bold
+}
+.active {
+  background-color:  #111;
+  color: white;
+  border-radius: 10px;
+}
+ul li a:hover {
+  background-color: #111;
+  color:white;
+  border-radius: 10px;
+}
